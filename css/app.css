@@ -22,6 +22,9 @@ body{
 a{
    color: rgba(131, 216, 0, 0.75);
 }
+a:hover{
+    color: dodgerblue;
+}
 
 img{
     max-width: 100%;
@@ -77,20 +80,24 @@ Hero page
     bottom: auto;
     right: auto;
 
+/*
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
+*/
     
     top: 95%;
     height: 28px;
     width: 28px;
     background: url(../img/Nav/cd-arrow-back.svg) no-repeat center center;
     opacity: 0;
+/*
     -webkit-transition: opacity 0.2s;
     -moz-transition: opacity 0.2s;
     transition: opacity 0.2s;
+*/
 }
 
 .hero .wrapper{
@@ -101,10 +108,13 @@ Hero page
 
 .hero h1{
     width: 90%;
-    margin: 0 auto .9em ;
+    margin: 0 auto .6em ;
     font-size: 4.4rem;
     color: #4e4e4e;
     font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: 800;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
